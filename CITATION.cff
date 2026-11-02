@@ -5,6 +5,7 @@ authors:
   - family-names: Maciel
     given-names: André Luiz
     alias: "Andre Luiz Maciel de Lima Silva"
+    orcid: "https://orcid.org/0009-0000-1747-1392"
 date-released: 2026-11-02
 version: 1.0.0
 license: MIT
@@ -23,5 +24,5 @@ references:
     authors:
       - family-names: Maciel
         given-names: André Luiz
-    doi: 10.5281/zenodo.23891606
+    doi: 10.5281/zenodo.23891605
     year: 2026
