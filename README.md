@@ -4,6 +4,7 @@
 
 Autor: **André Luiz Maciel** · Coordenador de Qualidade · CX · Analytics
 📄 Publicação completa: **https://andreluizmaciel.github.io/nps-analise-estatistica/**
+📘 Artigo em PDF (v2.0): [Qualidade não é controle. É alavanca estratégica de resultado — da monitoria à leitura estatística do NPS](https://andreluizmaciel.github.io/nps-analise-estatistica/artigo-qualidade-nao-e-controle-v2.pdf)
 
 > *"Qualidade não é controle. É alavanca estratégica de resultado."* — André Luiz Maciel ([doi:10.5281/zenodo.23891606](https://doi.org/10.5281/zenodo.23891606))
 
@@ -44,6 +45,7 @@ Com 300 respostas no mês, a margem costuma passar de ±8 pontos.
 | `nps_toolkit.py` | Funções: `resumo_nps`, `nps_por`, `teste_mes_a_mes`, `limites_controle`, `decomposicao_mix`, `nps_sem_segmento`, `modelo_resposta`, `simular_cenario`, `dispersao_atendentes`, `marcar_temas`, `anonimizar` |
 | `dados_sinteticos.py` | Gera uma base 100% fictícia de respostas de NPS |
 | `publicacao.py` | Gera a publicação (site com gráficos) a partir da base fictícia |
+| `artigo_v2.py` | Gera o PDF do artigo *Qualidade não é controle* (v2.0) |
 | `.github/workflows/pages.yml` | Publica o site no GitHub Pages a cada atualização |
 
 ## Como usar

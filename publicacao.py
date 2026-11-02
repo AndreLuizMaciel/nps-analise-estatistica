@@ -24,6 +24,7 @@ ROTULOS = {"lento_24h": "Resolvido após 24h", "evento_sazonal": "Evento sazonal
            "reclamacao": "Reclamação", "canal_email": "Pesquisa por e-mail", "recontato_7d": "Recontato em 7 dias"}
 REPO = "https://github.com/AndreLuizMaciel/nps-analise-estatistica"
 URL = "https://andreluizmaciel.github.io/nps-analise-estatistica/"
+PDF = "artigo-qualidade-nao-e-controle-v2.pdf"
 
 
 def _estilo(ax, titulo):
@@ -146,6 +147,9 @@ def gerar_site(saida):
     with open(f"{saida}/index.html", "w", encoding="utf-8") as f:
         f.write(pagina)
     df.to_csv(f"{saida}/base_ficticia.csv", index=False)
+    import subprocess, sys
+    subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "artigo_v2.py"),
+                    f"{saida}/{PDF}"], check=True)
     print(f"Site gerado em {saida}/ ({len(df)} respostas fictícias)")
 
 
@@ -196,6 +200,7 @@ pre{{background:var(--soft);padding:14px;border-radius:8px;overflow-x:auto;font-
 <p>Toda central de atendimento conhece a cena: o NPS do mês cai três pontos e a reunião vira uma caça ao culpado. No mês seguinte sobe quatro e ninguém sabe dizer por quê. O problema raramente é o atendimento; é a <b>leitura</b> do indicador. Esta publicação reúne, de forma aplicada, o roteiro estatístico que uso para responder três perguntas antes de qualquer plano de ação:</p>
 <ol><li><b>A variação é real ou é ruído de amostra?</b></li><li><b>Ela veio de mudança no tipo de caso ou de piora no mesmo tipo de caso?</b></li><li><b>Quais fatores tiram mais pontos e quanto valeria corrigir cada um?</b></li></ol>
 <p>É a aplicação prática de uma ideia que defendo: <i>“Qualidade não é controle. É alavanca estratégica de resultado.”</i> A Qualidade só vira alavanca quando lê os números com método.</p>
+<div class="box"><b>Artigo completo (PDF):</b> <a href="artigo-qualidade-nao-e-controle-v2.pdf">Qualidade não é controle. É alavanca estratégica de resultado — v2.0: da monitoria à leitura estatística do NPS</a>, com a árvore de KPIs do call center e o roteiro estatístico desta página.</div>
 
 <h2>1. O NPS é uma média e isso muda tudo</h2>
 <p>Dê a cada resposta o valor +100 (promotor, notas 9–10), 0 (neutro, 7–8) ou −100 (detrator, 0–6). A média desse vetor é exatamente o NPS. Como é uma média, ela tem variância e, portanto, margem de erro:</p>
