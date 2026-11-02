@@ -286,6 +286,7 @@ nt.modelo_resposta(df, ["lento_24h", "reclamacao", "recontato_7d"])</code></pre>
 <li>EFRON, B.; MORRIS, C. Data Analysis Using Stein's Estimator and its Generalizations. <i>JASA</i>, v. 70, n. 350, 1975.</li>
 <li>WHITE, H. A Heteroskedasticity-Consistent Covariance Matrix Estimator. <i>Econometrica</i>, v. 48, n. 4, 1980.</li>
 <li>MACIEL, A. L. Qualidade não é controle. É alavanca estratégica de resultado. Zenodo, 2026. <a href="https://doi.org/10.5281/zenodo.23891605">doi:10.5281/zenodo.23891605</a>.</li>
+<li>MACIEL, A. L. Não Só de Call Center Vive a Experiência do Cliente: qualidade estratégica, Voz do Cliente e análise de dados para transformar jornadas em resultados. Zenodo, 2026. <a href="https://doi.org/10.5281/zenodo.23898805">doi:10.5281/zenodo.23898805</a>.</li>
 </ul>
 </article>
 
