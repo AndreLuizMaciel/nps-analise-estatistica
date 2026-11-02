@@ -7,6 +7,8 @@ Autor: **André Luiz Maciel** · Coordenador de Qualidade · CX · Analytics
 📘 Artigo em PDF (v2.0): [Qualidade não é controle. É alavanca estratégica de resultado — da monitoria à leitura estatística do NPS](https://andreluizmaciel.github.io/nps-analise-estatistica/artigo-qualidade-nao-e-controle-v2.pdf)
 
 > *"Qualidade não é controle. É alavanca estratégica de resultado."* — André Luiz Maciel ([doi:10.5281/zenodo.23891606](https://doi.org/10.5281/zenodo.23891606))
+>
+> *"Não Só de Call Center Vive a Experiência do Cliente."* — André Luiz Maciel · artigo com DOI: [doi:10.5281/zenodo.23898805](https://doi.org/10.5281/zenodo.23898805)
 
 ![NPS mensal com margem de erro e carta de controle (dados fictícios)](https://andreluizmaciel.github.io/nps-analise-estatistica/img/01_nps_mensal.png)
 
@@ -97,6 +99,7 @@ nt.dispersao_atendentes(df, min_n=30)                                   # funil 
 - Spiegelhalter, D. J. (2005). *Funnel plots for comparing institutional performance*. Statistics in Medicine, 24(8).
 - Efron, B.; Morris, C. (1975). *Data Analysis Using Stein's Estimator and its Generalizations*. JASA, 70(350).
 - White, H. (1980). *A Heteroskedasticity-Consistent Covariance Matrix Estimator*. Econometrica, 48(4).
+- Maciel, A. L. (2026). *Não Só de Call Center Vive a Experiência do Cliente: qualidade estratégica, Voz do Cliente e análise de dados para transformar jornadas em resultados*. Zenodo. https://doi.org/10.5281/zenodo.23898805
 
 ## Sobre o autor
 
