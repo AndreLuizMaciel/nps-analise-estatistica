@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Se usar este material, cite como abaixo."
+title: "NPS com rigor estatístico: como separar ruído de mudança real e descobrir o que move o indicador"
+authors:
+  - family-names: Maciel
+    given-names: André Luiz
+    alias: "Andre Luiz Maciel de Lima Silva"
+date-released: 2026-11-02
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/AndreLuizMaciel/nps-analise-estatistica"
+url: "https://andreluizmaciel.github.io/nps-analise-estatistica/"
+keywords:
+  - NPS
+  - Net Promoter Score
+  - estatística
+  - call center
+  - qualidade
+  - customer experience
+references:
+  - type: article
+    title: "Qualidade não é controle. É alavanca estratégica de resultado"
+    authors:
+      - family-names: Maciel
+        given-names: André Luiz
+    doi: 10.5281/zenodo.23891606
+    year: 2026
