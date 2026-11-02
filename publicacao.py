@@ -169,7 +169,7 @@ PAGINA = """<!doctype html>
 <script type="application/ld+json">
 {{"@context":"https://schema.org","@type":"TechArticle","headline":"NPS com rigor estatístico: ruído, mudança real e o que move o indicador",
 "author":{{"@type":"Person","name":"André Luiz Maciel","alternateName":"Andre Luiz Maciel de Lima Silva",
-"jobTitle":"Coordenador de Qualidade · CX · Analytics","sameAs":["https://www.linkedin.com/in/andr%C3%A9-luiz-maciel-622a52119/","https://medium.com/@andreluizmaciel26","https://github.com/AndreLuizMaciel","https://doi.org/10.5281/zenodo.23891606"]}},
+"jobTitle":"Coordenador de Qualidade · CX · Analytics","sameAs":["https://www.linkedin.com/in/andr%C3%A9-luiz-maciel-622a52119/","https://medium.com/@andreluizmaciel26","https://github.com/AndreLuizMaciel","https://doi.org/10.5281/zenodo.23891605"]}},
 "inLanguage":"pt-BR","url":"{url}","codeRepository":"{repo}","license":"https://creativecommons.org/licenses/by/4.0/",
 "keywords":"NPS, Net Promoter Score, margem de erro, teste z, shift-share, regressão, call center, qualidade, customer experience"}}
 </script>
@@ -188,6 +188,7 @@ img{{width:100%;height:auto;margin:12px 0}} table{{width:100%;border-collapse:co
 pre{{background:var(--soft);padding:14px;border-radius:8px;overflow-x:auto;font-size:14px}} code{{font-size:.92em}}
 .box{{background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:24px 0}}
 .aviso{{border-left:4px solid var(--accent)}} a{{color:var(--accent)}}
+mjx-container{{overflow-x:auto;overflow-y:hidden;max-width:100%}}
 </style>
 </head>
 <body><main><article>
@@ -284,14 +285,14 @@ nt.modelo_resposta(df, ["lento_24h", "reclamacao", "recontato_7d"])</code></pre>
 <li>SPIEGELHALTER, D. J. Funnel plots for comparing institutional performance. <i>Statistics in Medicine</i>, v. 24, n. 8, 2005.</li>
 <li>EFRON, B.; MORRIS, C. Data Analysis Using Stein's Estimator and its Generalizations. <i>JASA</i>, v. 70, n. 350, 1975.</li>
 <li>WHITE, H. A Heteroskedasticity-Consistent Covariance Matrix Estimator. <i>Econometrica</i>, v. 48, n. 4, 1980.</li>
-<li>MACIEL, A. L. Qualidade não é controle. É alavanca estratégica de resultado. Zenodo, 2026. <a href="https://doi.org/10.5281/zenodo.23891606">doi:10.5281/zenodo.23891606</a>.</li>
+<li>MACIEL, A. L. Qualidade não é controle. É alavanca estratégica de resultado. Zenodo, 2026. <a href="https://doi.org/10.5281/zenodo.23891605">doi:10.5281/zenodo.23891605</a>.</li>
 </ul>
 </article>
 
 <section class="box">
 <h2 style="margin-top:0">Sobre o autor</h2>
 <p><b>André Luiz Maciel</b> é Coordenador de Qualidade, com trajetória que vai do atendimento à coordenação em operações de banco, seguros, varejo, energia e saúde. Une estatística, ciência de dados (SQL, Power BI, Python) e gestão de equipes para transformar indicadores como NPS, CSAT, CES, FCR e recontato em decisão. É co-idealizador do Projeto Promotor e autor da frase <i>“Qualidade não é controle. É alavanca estratégica de resultado.”</i></p>
-<p><a href="https://www.linkedin.com/in/andr%C3%A9-luiz-maciel-622a52119/">LinkedIn</a> · <a href="https://medium.com/@andreluizmaciel26">Medium</a> · <a href="https://doi.org/10.5281/zenodo.23891606">Zenodo</a> · <a href="https://projetopromotor-nexus.base44.app/">Projeto Promotor</a> · <a href="{repo}">Código</a></p>
+<p><a href="https://www.linkedin.com/in/andr%C3%A9-luiz-maciel-622a52119/">LinkedIn</a> · <a href="https://medium.com/@andreluizmaciel26">Medium</a> · <a href="https://doi.org/10.5281/zenodo.23891605">Zenodo</a> · <a href="https://projetopromotor-nexus.base44.app/">Projeto Promotor</a> · <a href="{repo}">Código</a></p>
 <p><b>Como citar:</b> MACIEL, André Luiz. <i>NPS com rigor estatístico: como separar ruído de mudança real e descobrir o que move o indicador</i>. 2026. Disponível em: {url}.</p>
 <p style="font-size:13px;color:var(--muted)">Texto sob CC BY 4.0 · Código sob licença MIT · Dados 100% fictícios.</p>
 </section>
