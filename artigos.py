@@ -128,6 +128,9 @@ def gerar(saida):
     with open(os.path.join(saida, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE}sitemap.xml\n")
     print("Páginas de artigos geradas:", ", ".join(urls[1:]))
+    # verificação do Google Search Console
+    with open(os.path.join(saida, "google4ebf716b29e26e42.html"), "w", encoding="utf-8") as f:
+        f.write("google-site-verification: google4ebf716b29e26e42.html")
 
 
 if __name__ == "__main__":
