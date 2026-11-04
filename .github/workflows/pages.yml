@@ -24,6 +24,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python publicacao.py --saida _site
+      - run: python artigos.py --saida _site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
