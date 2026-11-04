@@ -202,6 +202,7 @@ mjx-container{{overflow-x:auto;overflow-y:hidden;max-width:100%}}
 <ol><li><b>A variação é real ou é ruído de amostra?</b></li><li><b>Ela veio de mudança no tipo de caso ou de piora no mesmo tipo de caso?</b></li><li><b>Quais fatores tiram mais pontos e quanto valeria corrigir cada um?</b></li></ol>
 <p>É a aplicação prática de uma ideia que defendo: <i>“Qualidade não é controle. É alavanca estratégica de resultado.”</i> A Qualidade só vira alavanca quando lê os números com método.</p>
 <div class="box"><b>Artigo completo (PDF):</b> <a href="artigo-qualidade-nao-e-controle-v2.pdf">Qualidade não é controle. É alavanca estratégica de resultado — v2.0: da monitoria à leitura estatística do NPS</a>, com a árvore de KPIs do call center e o roteiro estatístico desta página.</div>
+<div class="box"><b>Outros artigos do autor:</b> <a href="nao-so-de-call-center/">Não Só de Call Center Vive a Experiência do Cliente</a> (DOI 10.5281/zenodo.23898805) · <a href="artigos/">todos os artigos</a>.</div>
 
 <h2>1. O NPS é uma média e isso muda tudo</h2>
 <p>Dê a cada resposta o valor +100 (promotor, notas 9–10), 0 (neutro, 7–8) ou −100 (detrator, 0–6). A média desse vetor é exatamente o NPS. Como é uma média, ela tem variância e, portanto, margem de erro:</p>
